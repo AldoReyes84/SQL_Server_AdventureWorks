@@ -1,4 +1,4 @@
-Go back to Aldo Reyes Portfolio](https://aldoreyes84.github.io/AldoReyes.github.io/)
+Go back to [Aldo Reyes Portfolio](https://aldoreyes84.github.io/AldoReyes.github.io/)
 
 # SQL_Server_Data_Analysis
 SQL_Server_AdventureWorks_Database 
