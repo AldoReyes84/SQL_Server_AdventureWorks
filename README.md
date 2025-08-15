@@ -20,5 +20,5 @@ We'll focus on the principal fact data we have aveilable, and bring Quantity , P
 
 <img width="702" height="815" alt="image" src="https://github.com/user-attachments/assets/67f7927f-ed9c-4c80-9660-9ec214d78c31" />
 
-
+The interpretation of these results are addresserd in the [Data Analysis Project](https://github.com/AldoReyes84/Data-Analisys_For-AdventureWorksDW2022_SQL_PowerBI_Python_Excel/tree/main) 
 
