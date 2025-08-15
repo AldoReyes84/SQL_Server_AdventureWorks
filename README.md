@@ -4,17 +4,25 @@ Go back to [Data Analysis Project](https://github.com/AldoReyes84/Data-Analisys_
 
 # SQL_Server_Data_Analysis
 
-SQL_Server_AdventureWorks_Database 
+This analysis utilizes the AdventureWorks2022 sample database, installed in SQL Server Management Studio, as the primary data source for a broader business intelligence initiative.
 
-This Project will present a Data Analysis for the AdventureWorks2022 sample database in as part of a bigger project to create a Insight dashboard.
+### Focus: Reseller Sales Table
 
-We will start with the Adventureworks2022 database intalled in our SQL Server Manager Studio 
-
-Lets focus on the Reseller Sales table 
+!Reseller Sales Table  
 
 <img width="1897" height="918" alt="image" src="https://github.com/user-attachments/assets/c813db2c-9cfe-4fec-a918-48400a309367" />
 
-We'll focus on the principal fact data we have aveilable, and bring Quantity , Product Cost, Total Discount, Sales Amount and calculate GrossMargin and Margin Percentage grouped by month and year
+Key metrics analyzed include:
+
+- Quantity  
+- Product Cost  
+- Total Discount  
+- Sales Amount  
+- Gross Margin  
+- Margin Percentage  
+
+Data is aggregated by **month** and **year** to identify performance trends.
+
 
 <img width="617" height="463" alt="image" src="https://github.com/user-attachments/assets/0adfd4c0-c34a-4bcf-97a6-64f9a1a80b07" />
 
