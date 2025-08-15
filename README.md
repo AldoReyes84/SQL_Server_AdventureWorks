@@ -28,5 +28,5 @@ Data is aggregated by **month** and **year** to identify performance trends.
 
 <img width="702" height="815" alt="image" src="https://github.com/user-attachments/assets/67f7927f-ed9c-4c80-9660-9ec214d78c31" />
 
-The interpretation of these results are addresserd in the [Data Analysis Project](https://github.com/AldoReyes84/Data-Analisys_For-AdventureWorksDW2022_SQL_PowerBI_Python_Excel/tree/main) 
+The interpretation of these results are addresserd in the [Data Analysis Project/FactResellersSales_Table](https://github.com/AldoReyes84/Data-Analisys_For-AdventureWorksDW2022_SQL_PowerBI_Python_Excel/tree/main#factresellerssales-table) 
 
