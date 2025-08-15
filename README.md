@@ -27,7 +27,7 @@ Data is aggregated by **month** and **year** to identify performance trends.
 <img width="617" height="463" alt="image" src="https://github.com/user-attachments/assets/0adfd4c0-c34a-4bcf-97a6-64f9a1a80b07" />
 
 
-SELECT 
+    SELECT 
     ISNULL(CAST(YEAR([DueDate]) AS VARCHAR), 'Total General') AS [Year],
     CASE 
         WHEN GROUPING(MONTH([DueDate])) = 1 THEN 'Subtotal Año'
@@ -48,16 +48,16 @@ SELECT
         END, 'N2'
     ) + '%' AS [MarginPercentage]
 
-FROM [AdventureWorksDW2022].[dbo].[FactResellerSales]
+    FROM [AdventureWorksDW2022].[dbo].[FactResellerSales]
 
-GROUP BY GROUPING SETS (
+    GROUP BY GROUPING SETS (
     (YEAR([DueDate]), MONTH([DueDate])),  -- Detalle por mes
     (YEAR([DueDate])),                    -- Subtotal por año
     ()                                    -- Total general
-)
+    )
 
-ORDER BY 
-    GROUPING(YEAR([DueDate])), 
+    ORDER BY 
+        GROUPING(YEAR([DueDate])), 
     YEAR([DueDate]), 
     GROUPING(MONTH([DueDate])), 
     MONTH([DueDate]);
