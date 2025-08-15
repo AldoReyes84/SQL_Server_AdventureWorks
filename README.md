@@ -33,8 +33,7 @@ SELECT
         WHEN GROUPING(MONTH([DueDate])) = 1 THEN 'Subtotal Año'
         ELSE CAST(MONTH([DueDate]) AS VARCHAR)
     END AS [Month],
-    
-    
+        
     FORMAT(SUM([OrderQuantity]), 'N0', 'es-MX') AS [TotalQuantity],
     FORMAT(SUM([TotalProductCost]), 'C', 'es-MX') AS [TotalCost],
     FORMAT(SUM([DiscountAmount]), 'C', 'es-MX') AS [TotalDiscount],
@@ -62,8 +61,6 @@ ORDER BY
     YEAR([DueDate]), 
     GROUPING(MONTH([DueDate])), 
     MONTH([DueDate]);
-
-
 
 
 <img width="702" height="815" alt="image" src="https://github.com/user-attachments/assets/67f7927f-ed9c-4c80-9660-9ec214d78c31" />
