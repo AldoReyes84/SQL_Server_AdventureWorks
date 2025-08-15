@@ -26,7 +26,7 @@ Data is aggregated by **month** and **year** to identify performance trends.
 
 <img width="617" height="463" alt="image" src="https://github.com/user-attachments/assets/0adfd4c0-c34a-4bcf-97a6-64f9a1a80b07" />
 
-<<<
+
 SELECT 
     ISNULL(CAST(YEAR([DueDate]) AS VARCHAR), 'Total General') AS [Year],
     CASE 
@@ -62,7 +62,7 @@ ORDER BY
     YEAR([DueDate]), 
     GROUPING(MONTH([DueDate])), 
     MONTH([DueDate]);
->>>
+
 
 
 
