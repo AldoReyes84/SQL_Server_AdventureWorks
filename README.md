@@ -58,8 +58,16 @@ Data is aggregated by **month** and **year** to identify performance trends.
     GROUPING(MONTH([DueDate])), 
     MONTH([DueDate]);
 
-
 <img width="702" height="815" alt="image" src="https://github.com/user-attachments/assets/67f7927f-ed9c-4c80-9660-9ec214d78c31" />
 
+
 The interpretation of these results are addresserd in the [Data Analysis Project/FactResellersSales_Table](https://github.com/AldoReyes84/Data-Analisys_For-AdventureWorksDW2022_SQL_PowerBI_Python_Excel/tree/main#factresellerssales-table) 
+
+### Focus: Internet Sales Table
+
+To do the same analysis on the Internet Sales Table given that this table uses the same field names as the Resellers Table that we used we can just replace the table name om the from statement
+
+    FROM [AdventureWorksDW2022].[dbo].[FactInternetSales]
+
+<img width="690" height="800" alt="image" src="https://github.com/user-attachments/assets/7162fa52-ffd8-439f-b3e5-b0ee66fcb03a" />
 
