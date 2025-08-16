@@ -65,7 +65,7 @@ The interpretation of these results are addresserd in the [Data Analysis Project
 
 ### Focus: Internet Sales Table
 
-To do the same analysis on the Internet Sales Table given that this table uses the same field names as the Resellers Table that we used we can just replace the table name om the from statement
+To perform the same analysis on the Internet Sales table, simply replace the table name in the FROM clause. Since it uses the same field names as the Resellers table, no other changes are needed.
 
     FROM [AdventureWorksDW2022].[dbo].[FactInternetSales]
 
