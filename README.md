@@ -10,7 +10,7 @@ This analysis utilizes the AdventureWorks2022 sample database, installed in SQL 
 
 !Reseller Sales Table  
 
-<img width="1897" height="918" alt="image" src="https://github.com/user-attachments/assets/c813db2c-9cfe-4fec-a918-48400a309367" />
+<img width="700" height="338" alt="image" src="https://github.com/user-attachments/assets/c813db2c-9cfe-4fec-a918-48400a309367" />
 
 Key metrics analyzed include:
 
