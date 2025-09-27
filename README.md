@@ -1,12 +1,8 @@
-Go back to [Aldo Reyes Portfolio](https://aldoreyes84.github.io/AldoReyes.github.io/)
-
-Go back to [Data Analysis Project](https://github.com/AldoReyes84/Data-Analisys_For-AdventureWorksDW2022_SQL_PowerBI_Python_Excel/tree/main)
-
 # SQL_Server_Data_Analysis
 
 This analysis utilizes the AdventureWorks2022 sample database, installed in SQL Server Management Studio, as the primary data source for a broader business intelligence initiative.
 
-### Focus: Reseller Sales Table
+## Focus: Reseller Sales Table
 
 !Reseller Sales Table  
 
@@ -63,7 +59,7 @@ Data is aggregated by **month** and **year** to identify performance trends.
 
 The interpretation of these results are addresserd in the [Data Analysis Project/FactResellersSales_Table](https://github.com/AldoReyes84/Data-Analisys_For-AdventureWorksDW2022_SQL_PowerBI_Python_Excel/tree/main#factresellerssales-table) 
 
-### Focus: Internet Sales Table
+## Focus: Internet Sales Table
 
 To perform the same analysis on the Internet Sales table, simply replace the table name in the FROM clause. Since it uses the same field names as the Resellers table, no other changes are needed.
 
